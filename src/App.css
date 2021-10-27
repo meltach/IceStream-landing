@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+:root {
+  --purple: #623cea;
+  --ligh-gray: rgba(249, 249, 249, 0.75);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  background-color: #85c2cf;
+  background-image: linear-gradient(135deg, #85c2cf 0%, #627ab9 100%);
+}
+/* Navs */
+.navs {
+  background-color: var(--ligh-gray);
+}
+a {
+  font-weight: 300;
+  font-size: 1rem !important;
+}
+/* Hero section */
+.hero-body {
+  width: 100vw;
+  height: 100vh;
+}
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.action-display p {
+  font-weight: 300;
+}
+.action-display {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.bg-logo {
+  display: flex;
+  align-items: center;
+}
+.bg-logo img {
+  background-image: url("./assets/Vector.svg");
+  background-position: center center;
+  background-size: 250px, 200px;
+  background-repeat: no-repeat;
+  max-height: 500px;
+  margin-top: 50px;
+}
+/* Action buttons */
+.main-btn {
+  background-color: var(--purple);
+}
+.action-display.main-btn {
+  align-self: center;
+}
